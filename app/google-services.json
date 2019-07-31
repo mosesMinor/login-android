@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "697890731943",
+    "firebase_url": "https://login-1eb8a.firebaseio.com",
+    "project_id": "login-1eb8a",
+    "storage_bucket": "login-1eb8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697890731943:android:cf94ea59d49ca9c7",
+        "android_client_info": {
+          "package_name": "com.rymu.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697890731943-bekcohvsh6nl3dcpmm6v9ciilipltuto.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rymu.login",
+            "certificate_hash": "0f11d5d325da2f6d480f57c7373e1f4568c639bc"
+          }
+        },
+        {
+          "client_id": "697890731943-6ge4otre54one8p73hfqh6ck34atjq4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgVcJ8csbi1S7uBS6E_G5tF5vKUggmfso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697890731943-6ge4otre54one8p73hfqh6ck34atjq4j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

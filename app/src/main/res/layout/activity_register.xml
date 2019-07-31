@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:hint="Enter your username"
+        android:text="Enter your username" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18dp" />
+
+    <EditText
+        android:id="@+id/etUseremail"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your E-mail"
+        android:text="Enter your E-mail" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:hint="Enter your password"
+        android:text="Enter your password" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/etConfirmpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:hint="Confirm password"
+        android:text="Confirm your password" />
+
+    <Button
+        android:onClick="RegisterUser"
+        android:id="@+id/btnregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="Login" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="already you have acount?login"
+        android:onClick="Movetologin"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Already an account?login" />
+
+</linearLayout>
